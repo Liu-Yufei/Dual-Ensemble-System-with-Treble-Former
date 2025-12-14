@@ -1,0 +1,8 @@
+*.pth
+checkpoints/net1/*
+checkpoints/sub_model/*
+Models/*.pth
+Models/__pycache__
+compare_mode/__pycache__
+utils/__pycache__
+__pycache__

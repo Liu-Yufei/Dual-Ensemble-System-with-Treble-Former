@@ -7,10 +7,10 @@ import torchvision
 import itertools
 
 from functools import partial
-from Models import pvt_v2
+from compare_mode.other_models import pvt_v2
 from timm.models.vision_transformer import _cfg
 from Models import mit
-from Models import mlp
+from compare_mode.other_models import mlp
 from typing import Optional, Sequence, Tuple, Type, Union
 from torch.nn import LayerNorm
 

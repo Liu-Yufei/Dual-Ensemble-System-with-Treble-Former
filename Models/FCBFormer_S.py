@@ -4,7 +4,7 @@ import numpy as np
 import torch
 from torch import nn
 
-from Models import pvt_v2
+from compare_mode.other_models import pvt_v2
 from timm.models.vision_transformer import _cfg
 
 

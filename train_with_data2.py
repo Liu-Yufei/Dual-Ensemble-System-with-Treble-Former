@@ -3350,14 +3350,14 @@ if __name__ == '__main__':
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     logging.info(f'Using device {device}')
 
-    set_dir_img = Path('./data/train_and_val/Kvasir_and_CVC-ClinicDB/imgs/')
-    set_dir_mask = Path('./data/train_and_val/Kvasir_and_CVC-ClinicDB/masks/')
-    set_dir_img0 = Path('./data/test/ETIS-LaribPolypDB/imgs/')
-    set_dir_mask0 = Path('./data/test/ETIS-LaribPolypDB/masks/')
-    set_dir_img1 = Path('./data/test/CVC-ColonDB/imgs/')
-    set_dir_mask1 = Path('./data/test/CVC-ColonDB/masks/')
-    set_dir_img2 = Path('./data/test/CVC-300/imgs/')
-    set_dir_mask2 = Path('./data/test/CVC-300/masks/')
+    set_dir_img = Path('../Data/PraNet_dataset/TrainDataset/images')
+    set_dir_mask = Path('../Data/PraNet_dataset/TrainDataset/masks')
+    set_dir_img0 = Path('../Data/PraNet_dataset/TestDataset/ETIS-LaribPolypDB/images/')
+    set_dir_mask0 = Path('../Data/PraNet_dataset/TestDataset/ETIS-LaribPolypDB/masks/')
+    set_dir_img1 = Path('../Data/PraNet_dataset/TestDataset/CVC-ColonDB/images/')
+    set_dir_mask1 = Path('../Data/PraNet_dataset/TestDataset/CVC-ColonDB/masks/')
+    set_dir_img2 = Path('../Data/PraNet_dataset/TestDataset/CVC-300/images/')
+    set_dir_mask2 = Path('../Data/PraNet_dataset/TestDataset/CVC-300/masks/')
     number_net = args.numb_net
     set_dir_checkpoint = []
     set_nets_names = []

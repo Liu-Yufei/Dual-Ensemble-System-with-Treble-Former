@@ -1,9 +1,9 @@
 import torch
 import torch.nn as nn
 
-from Models.Treble_Former import Treble_Former as TF
-from Models.Treble_Former_S import Treble_Former as TF_S
-from Models.Treble_Former_L import Treble_Former as TF_L
+from compare_mode.other_models.Treble_Former import Treble_Former as TF
+from compare_mode.other_models.Treble_Former_S import Treble_Former as TF_S
+from compare_mode.other_models.Treble_Former_L import Treble_Former as TF_L
 from Models.FCBFormer_S import FCBFormer as FCBForme_S
 from Models.FCBFormer_L import FCBFormer as FCBForme_L
 from Models.ESFPNet_S import ESFPNetStructure as ESFP_S

@@ -7,7 +7,7 @@ import torch.nn.functional as F
 
 
 from Models import mit
-from Models import mlp
+from compare_mode.other_models import mlp
 from mmcv.cnn import ConvModule
 
 

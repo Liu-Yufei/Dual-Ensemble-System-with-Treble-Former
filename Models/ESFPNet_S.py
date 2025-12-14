@@ -7,7 +7,7 @@ import torch.nn.functional as F
 
 
 from Models import mit
-from Models import mlp
+from compare_mode.other_models import mlp
 from mmcv.cnn import ConvModule
 
 
@@ -68,7 +68,7 @@ class ESFPNetStructure(nn.Module):
         # if self.model_type == 'B1':
         #     pretrained_dict = torch.load('mit_b1.pth')
         if self.model_type == 'B2':
-            pretrained_dict = torch.load('mit_b2.pth')
+            pretrained_dict = torch.load('./Models/mit_b2.pth')
         # if self.model_type == 'B3':
         #     pretrained_dict = torch.load('mit_b3.pth')
         # if self.model_type == 'B4':
